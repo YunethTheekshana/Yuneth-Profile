@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ef3b171-acab-4706-b2c8-fef6d242ba71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Gallery-Images.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Skills Animation.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PcG85bYRCNKVrxqBXj3Dj7TFLN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web Profile/Asset/Images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CAASL\Downloads\Yuneth-Profile\Web Profile\Asset\Images" />
+      <recent name="C:\Users\CAASL\Downloads\Yuneth-Profile\Web Profile\Asset\Videos" />
+      <recent name="C:\Users\CAASL\Downloads\Yuneth-Profile\Web Profile\Asset\GIFs" />
+      <recent name="C:\Users\CAASL\Downloads\Yuneth-Profile\Web Profile\Asset\Documents" />
+      <recent name="C:\Users\Acer\IdeaProjects\Yuneth-Profile\Web Profile\Asset\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\Yuneth-Profile\Web Profile" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef3b171-acab-4706-b2c8-fef6d242ba71" name="Changes" comment="" />
+      <created>1683748795901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683748795901</updated>
+      <workItem from="1684219377155" duration="2407000" />
+      <workItem from="1684308308053" duration="700000" />
+      <workItem from="1684312999966" duration="2043000" />
+      <workItem from="1684395102143" duration="632000" />
+      <workItem from="1684398049603" duration="629000" />
+      <workItem from="1684421771589" duration="5548000" />
+      <workItem from="1684491315953" duration="14552000" />
+      <workItem from="1684566567934" duration="174000" />
+      <workItem from="1684569798090" duration="1882000" />
+      <workItem from="1684679883587" duration="2676000" />
+      <workItem from="1684739877879" duration="6502000" />
+      <workItem from="1684754748366" duration="3252000" />
+      <workItem from="1684846584882" duration="7003000" />
+      <workItem from="1684871962693" duration="3080000" />
+      <workItem from="1684902556430" duration="339000" />
+      <workItem from="1684920767501" duration="867000" />
+      <workItem from="1684953841607" duration="212000" />
+      <workItem from="1685014548783" duration="9778000" />
+      <workItem from="1685034840398" duration="1353000" />
+      <workItem from="1685070400938" duration="1534000" />
+      <workItem from="1685158410540" duration="1228000" />
+      <workItem from="1685184527263" duration="410000" />
+      <workItem from="1685242967828" duration="4328000" />
+      <workItem from="1685420902319" duration="3251000" />
+      <workItem from="1685430835133" duration="2813000" />
+      <workItem from="1685462546407" duration="240000" />
+      <workItem from="1686053791567" duration="2892000" />
+      <workItem from="1686059355332" duration="11172000" />
+      <workItem from="1686120903353" duration="6011000" />
+      <workItem from="1686243848790" duration="3000" />
+      <workItem from="1686339570056" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

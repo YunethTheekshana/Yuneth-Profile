@@ -1,0 +1,37 @@
+.skills-section h1{
+    font-size:50px ;
+    text-align: center;
+    color : white;
+    padding-top : 100px;
+    margin-bottom : 0px;
+
+}
+
+.Skills{
+    width: 450px;
+    height: 8px;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+#SkillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Skills-Page{
+    background-color: purple;
+}
+
+
+.skills-section h2{
+
+    margin-top : 50px;
+    margin-left : 175px;
+}

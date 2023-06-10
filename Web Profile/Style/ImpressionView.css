@@ -1,0 +1,24 @@
+.imagecontainer{
+    position : relative;
+    text-align : center;
+    color : white;
+    /*z-index: -999;*/
+
+}
+.Typing-text{
+    position : absolute;
+    bottom: 400px;
+    left: 100px;
+
+    font-family: 'Russo One', sans-serif;
+    font-size: 48px;
+}
+.Typing-text h1{
+    font-size: 80px;
+}
+
+.Typing-text h1,
+.Typing-text p {
+    display: inline-block;
+}
+

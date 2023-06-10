@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+        .carousel {
+            position: relative;
+            perspective: 1000px; /* Adds 3D perspective to the carousel */
+        }
+
+        .carousel-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* Apply additional styling as needed */
+        }
+
+        .center-image {
+            /* Style the center image as desired */
+        }
+
+
+        .carousel-image {
+            /* Other styling */
+
+            /* 3D Transformation */
+            transform-style: preserve-3d;
+            transform-origin: center top;
+            animation: rotate-carousel 10s infinite linear;
+        }
+
+        @keyframes rotate-carousel {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="carousel">
+    <img class="center-image" src="../Web%20Profile/Asset/Images/modelling.jpeg" alt="Center Image" height="450px">
+    <img class="carousel-image" src="../Web%20Profile/Asset/Images/modelling.jpeg" alt="Image 1" height="450px">
+    <img class="carousel-image" src="../Web%20Profile/Asset/Images/modelling.jpeg" alt="Image 2" height="450px">
+    <img class="carousel-image" src="../Web%20Profile/Asset/Images/modelling.jpeg" alt="Image 3" height="450px">
+    <!-- Add more images as needed -->
+</div>
+
+</div>
+
+<p id="typing-text"></p>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const textElement = document.getElementById("typing-text");
+        const texts = ["Hello", "World"];
+        let currentTextIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+        let deletingSpeed = 50;
+        let delayBetweenTexts = 2000;
+        let charIndex = 0;
+
+        function type() {
+            const currentText = texts[currentTextIndex];
+
+            if (isDeleting) {
+                textElement.textContent = currentText.substring(0, charIndex);
+                charIndex--;
+            } else {
+                textElement.textContent = currentText.substring(0, charIndex);
+                charIndex++;
+            }
+
+            if (charIndex === currentText.length) {
+                isDeleting = true;
+                setTimeout(type, delayBetweenTexts);
+            } else if (charIndex === 0) {
+                isDeleting = false;
+                currentTextIndex = (currentTextIndex + 1) % texts.length;
+                setTimeout(type, typingSpeed);
+            } else {
+                setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
+            }
+        }
+
+        type();
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+#programming div{
+    width: 0px;
+    height: 8px;
+    background-color: red;
+    animation-name: programming_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes programming_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.88px);
+    }
+}
+#oop div{
+    width: 0px;
+    height: 8px;
+    background-color: orange;
+    animation-name: oop_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes oop_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.84px);
+    }
+}
+#designing div{
+    width: 0px;
+    height: 8px;
+    background-color: green;
+    animation-name: designing_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes designing_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.89px);
+    }
+}
+#webdesigning div{
+    width: 0px;
+    height: 8px;
+    background-color: yellow;
+    animation-name: webdesigning_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes webdesigning_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.65px);
+    }
+}
+#database div{
+    width: 0px;
+    height: 8px;
+    background-color: blue;
+    animation-name: database_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes database_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.8px);
+    }
+}
+#softskill div{
+    width: 0px;
+    height: 8px;
+    background-color: #429bf5;
+    animation-name: softskill_anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+}
+
+@keyframes softskill_anime{
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: calc(350*0.92px);
+    }
+}

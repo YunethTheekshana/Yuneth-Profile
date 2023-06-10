@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+ header h1{
+    margin-right: auto;
+}
+header h3>a{
+    display: inline-block;
+    margin-left: 20px;
+    color: fuchsia;
+    text-decoration:none;
+}
+
+header h3>a:hover{
+    text-decoration: underline green;
+    color: green;
+    text-underline-offset: 7px;
+}

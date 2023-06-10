@@ -1,0 +1,47 @@
+/*#Triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+
+    position: absolute;
+    right: 0;
+    /*transform: translate(0, -50%);
+}*/
+#DeveloperDetails{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#LetsTalk{
+    display: block;
+    margin-left: 120px;
+}
+#DeveloperDetails div>p{
+    color: #dce1e8;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#LetsTalk  p:first-child{
+    margin-bottom: 28px;
+}
+#LetsTalk  p:nth-child(2),#LetsTalk  p:nth-child(3){
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+/*#Address p:nth-child(2),#Address p:nth-child(3),#Address p:nth-child(4),#Address p:nth-child(5){}*/
+#Address p:nth-child(n+2):nth-child(-n+5){
+    margin: 0;
+}
+
+
+#trademark{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#trademarkcreator{
+    color: greenyellow;
+}

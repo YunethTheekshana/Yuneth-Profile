@@ -1,0 +1,36 @@
+#portfolio-text {
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 30px;
+    white-space: pre-line;
+    color: #807c71;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#ResumeButton{
+    background:    #9900ff;
+    background:    linear-gradient(#fa8203, #9900ff 50%, #fa8203);
+    border:        4px solid #784391;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 26px/1 "Lobster Two", cursive;
+    text-align:    center;
+}
+
+#RightDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#CV img,
+#CV button{
+    display: block;
+}
+#CV img{
+    margin-left: 65px;
+}
+#CV{
+    margin-left: 850px;
+}
