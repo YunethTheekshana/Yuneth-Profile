@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ef3b171-acab-4706-b2c8-fef6d242ba71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Technology-Section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Yuneth-Profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Yuneth-Profile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/github_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/github_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/iglogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/iglogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/linkdnlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/linkdnlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/twitterlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/twitterlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Style/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Style/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Profile/Style/ImpressionView.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Style/ImpressionView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +101,7 @@
       <workItem from="1687455081182" duration="617000" />
       <workItem from="1687795299019" duration="3018000" />
       <workItem from="1687844920609" duration="1254000" />
-      <workItem from="1687846506524" duration="848000" />
+      <workItem from="1687846506524" duration="1857000" />
     </task>
     <servers />
   </component>
