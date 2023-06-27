@@ -1,0 +1,30 @@
+.Technology-section hr{
+    width : 250px;
+    border : 0px;
+    border-top : 2px solid white;
+
+}
+#Technology-line{
+    display :flex;
+    align-items :center;
+    justify-content : center;
+}
+.Technology-container{
+    display : grid;
+    grid-template-columns : repeat(5, 1fr);
+    grid-gap : 20px;
+    justify-items : center;
+    align-items : center;
+    margin-top : 75px;
+}
+.grid-item{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+#vertical-line {
+    height: 250px;
+    width: 2px;
+    background-color: #5a5d63;
+    margin-top: 100px;
+}

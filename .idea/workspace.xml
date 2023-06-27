@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ef3b171-acab-4706-b2c8-fef6d242ba71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Gallery-Images.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Skills Animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web Profile/Style/Technology-Section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Yuneth-Profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Yuneth-Profile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/github_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/github_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/iglogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/iglogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/linkdnlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/linkdnlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/twitterlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Asset/Images/Logo/twitterlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Style/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Style/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Profile/Style/ImpressionView.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web Profile/Style/ImpressionView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web Profile/Asset/Images" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Yuneth-Profile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,6 +58,7 @@
       <recent name="C:\Users\Acer\IdeaProjects\Yuneth-Profile\Web Profile\Asset\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CAASL\Downloads\Yuneth-Profile" />
       <recent name="C:\Users\Acer\IdeaProjects\Yuneth-Profile\Web Profile" />
     </key>
   </component>
@@ -92,7 +100,17 @@
       <workItem from="1686059355332" duration="11172000" />
       <workItem from="1686120903353" duration="6011000" />
       <workItem from="1686243848790" duration="3000" />
-      <workItem from="1686339570056" duration="1545000" />
+      <workItem from="1686339570056" duration="1707000" />
+      <workItem from="1686373329843" duration="566000" />
+      <workItem from="1687153219683" duration="9169000" />
+      <workItem from="1687237733642" duration="7121000" />
+      <workItem from="1687292446133" duration="619000" />
+      <workItem from="1687449151442" duration="1224000" />
+      <workItem from="1687454514968" duration="549000" />
+      <workItem from="1687455081182" duration="617000" />
+      <workItem from="1687795299019" duration="3018000" />
+      <workItem from="1687844920609" duration="1254000" />
+      <workItem from="1687846506524" duration="848000" />
     </task>
     <servers />
   </component>

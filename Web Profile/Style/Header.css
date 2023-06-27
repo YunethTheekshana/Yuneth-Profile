@@ -1,21 +1,67 @@
 header {
+    position: sticky;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header-content {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    padding: 10px 20px;
 }
- header h1{
+
+header h1 {
     margin-right: auto;
-}
-header h3>a{
-    display: inline-block;
-    margin-left: 20px;
-    color: fuchsia;
-    text-decoration:none;
+    font-family: 'Poltawski Nowy', serif;
+    color: #dce1e8;
+    margin: 0;
 }
 
-header h3>a:hover{
-    text-decoration: underline green;
-    color: green;
-    text-underline-offset: 7px;
+nav {
+    display: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 3px;
+    background-color: #dce1e8;
+}
+
+@media (min-width: 768px) {
+    .header-content {
+        justify-content: flex-start;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    header h3>a {
+        display: inline-block;
+        margin-left: 20px;
+        color: fuchsia;
+        text-decoration: none;
+    }
+
+    header h3>a:hover {
+        text-decoration: underline green;
+        color: green;
+        text-underline-offset: 7px;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }

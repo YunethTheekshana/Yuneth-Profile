@@ -2,17 +2,24 @@
 <html lang="en" xmlns:animate__infinite="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Yuneth Profile</title>
+
+<!--    StyleSheets-->
+
     <link rel="stylesheet" href="Web%20Profile/Style/Skills%20Animation.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Header.css">
     <link rel="stylesheet" href="Web%20Profile/Style/ImpressionView.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Portfolio.css">
+    <link rel="stylesheet" href="Web%20Profile/Style/Technology-Section.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Gallery-Images.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Contact%20Form.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Footer.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Skills-Section.css">
     <link rel="stylesheet" href="Web%20Profile/Style/Footer%20Video.css">
 
+<!--Google Fonts-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,14 +28,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Monomaniac+One&family=Poltawski+Nowy:wght@500&family=Russo+One&display=swap" rel="stylesheet"></head>
+
+<!--AOS-->
+
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!--FontAwesome-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
 <style>
 
     body{
         cursor: url("Web Profile/Asset/Images/modellingrmvbg.png"),auto;
+        overflow-x: hidden;
     }
 
   Header>h3>a{
@@ -45,66 +62,44 @@
    .socials{
 
         display : flex;
-        flex-direction : row;
-        <!--justify-content : space-around;-->
+        flex-direction : row ;
+        justify-content : space-evenly;
         position : absolute;
-        top:0;
+        bottom: 15px;
+        left: 30px;
 
    }
-
-<!--   .socials > div{-->
-<!--   height: fit-content;-->
+   .socials>div>a>img{
+       margin-right: 32px;
    }
-
-
-.Technology-section hr{
-    width : 250px;
-    border : 0px;
-    border-top : 2px solid white;
-
-}
-#Technology-line{
-    display :flex;
-    align-items :center;
-    justify-content : center;
-}
-.Technology-container{
-    display : grid;
-    grid-template-columns : repeat(5, 1fr);
-    grid-gap : 20px;
-    justify-items : center;
-    align-items : center;
-    margin-top : 75px;
-}
-.grid-item{
-    display : flex;
-    justify-content : center;
-    align-items : center;
-}
-#vertical-line {
-    height: 250px;
-    width: 2px;
-    background-color: #5a5d63;
-    margin-top: 100px;
-}
 
 </style>
 <body style="background-color :#5a07b3 ; position : relative;">
 
 <header>
-    <h1 style="font-family: 'Poltawski Nowy', serif; color: #dce1e8; margin-left: 50px">Yuneth Withanachchi</h1>
-    <h3><a href="#Home">Home</a></h3>
-    <h3><a href="#Portfolio">Portfolio</a></h3>
-    <h3><a href="#Projects">Projects</a></h3>
-    <h3><a href="#Gallery">Gallery</a></h3>
-    <h3><a href="#ContactForm">Contact Me</a></h3>
+        <h1>Yuneth Withanachchi</h1>
+        <nav>
+            <h3><a href="#Home">Home</a></h3>
+            <h3><a href="#Portfolio">Portfolio</a></h3>
+            <h3><a href="#Projects">Projects</a></h3>
+            <h3><a href="#Gallery">Gallery</a></h3>
+            <h3><a href="#ContactForm">Contact Me</a></h3>
+        </nav>
+        <div class="header-content">
+            <div class="hamburger">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
 </header>
 
-<!--<hr style=" height : 2px ; background-color : black; margin : 0px 0px ; border-left : 0px ;border-right : 0px">-->
+
+<hr style=" height : 2px ; background-color : black; margin : 0px 0px ; border-left : 0px ;border-right : 0px">
 
 <!--First View-->
 <div class="imagecontainer" id="Home">
-    <img src="Web%20Profile/Asset/Images/EffectHorizpic.jpg" alt="photo of Yuneth" height="500" width="100%">
+    <img src="Web%20Profile/Asset/Images/EffectHorizpic.jpg" alt="photo of Yuneth" height="525" width="100%">
     <div class="Typing-text">
 <!--        <div data-aos="zoom-out-up" data-aos-duration="10000">>-->
             <p id="NonTypedText">You came across a         </p>
@@ -112,10 +107,11 @@
     </div>
 
     <section class="socials">
-        <div><a href="https://www.linkedin.com/in/yuneth-withanachchi-5968aa194/" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/linkdnlogo.png" alt="Linkdn" height="80px"></a></div>
-        <div><a href="https://twitter.com/YunethThekshana" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/twitterlogo.png" alt="Twitter" height="80px"></a></div>
-        <div><a href="https://www.instagram.com/_don_boss_/" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/iglogo.png" alt="Instagram" height="80px"></a></div>
-        <div><a href="https://github.com/YunethWithanachchi" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/github_logo.png" alt="Github" height="80px"></a></div>
+        <div><a href="https://www.linkedin.com/in/yuneth-withanachchi-5968aa194/" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/linkdnlogo.png" alt="Linkdn" height="65px"></a></div>
+        <div><a href="https://twitter.com/YunethThekshana" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/twitterlogo.png" alt="Twitter" height="71px"></a></div>
+        <div><a href="https://www.instagram.com/_don_boss_/" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/iglogo.png" alt="Instagram" height="59px" style="margin-right: 50px; margin-top: 5px"></a></div>
+        <div><a href="https://www.instagram.com/_don_boss_/" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/spotify.png" alt="Instagram" height="95px"></a></div>
+        <div><a href="https://github.com/YunethWithanachchi" target="_blank"><img src="Web%20Profile/Asset/Images/Logo/github_logo.png" alt="Github" height="68x"></a></div>
     </section>
 </div>
 
@@ -225,11 +221,11 @@
 <section id="Projects">
     <h1 class="subtitles"> Projects</h1>
     <hr style="height : 3px; background-color : #5a5d63; width: 250px; margin-bottom :80px;">
-    <span>
-        <h2 style="color :#5a5d63; float:left;">Course-Work</h2>
-        <h2 style="color :#5a5d63; float:right; ">Assignments</h2>
-    </span>
-    <br><br>
+<!--    <span>-->
+<!--        <h2 style="color :#5a5d63; float:left;">Course-Work</h2>-->
+<!--        <h2 style="color :#5a5d63; float:right; ">Assignments</h2>-->
+<!--    </span>-->
+<!--    <br><br>-->
     <hr id="vertical-line">
 </section>
 
