@@ -1,0 +1,16 @@
+.project{
+    width: 15rem;
+    height: 20rem;
+    background-color: black;
+    margin-bottom: 5rem;
+}
+.projecttext {
+    color: white;
+    align-content: center;
+}
+#projectset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
